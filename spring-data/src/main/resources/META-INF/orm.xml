@@ -1,0 +1,16 @@
+<entity-mappings>
+  <schema name="test"/>
+
+  <entity access="FIELD" class="net.friend.spring.data.model.Address" name="Address">
+    <table>address</table>
+    <attributes>
+      <id name="id">
+        <generated-value strategy="TABLE"/>
+      </id>
+      <basic name="street"/>
+      <basic name="district"/>
+      <basic name="city"/>
+      <basic name="country"/>
+    </attributes>
+  </entity>
+</entity-mappings>

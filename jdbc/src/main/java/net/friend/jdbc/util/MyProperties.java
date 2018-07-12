@@ -1,6 +1,5 @@
-package net.friend.jdbc;
+package net.friend.jdbc.util;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -22,7 +21,7 @@ public class MyProperties {
 
     try {
 
-      input = new FileInputStream("config.properties");
+      input = this.getClass().getClassLoader().getResourceAsStream("config.properties");
 
       // load a properties file
       prop.load(input);

@@ -1,4 +1,4 @@
-package net.friend.jdbc;
+package net.friend.jdbc.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

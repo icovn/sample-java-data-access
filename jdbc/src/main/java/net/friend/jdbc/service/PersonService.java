@@ -1,8 +1,10 @@
-package net.friend.jdbc;
+package net.friend.jdbc.service;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import net.friend.jdbc.model.Person;
+import net.friend.jdbc.util.MyProperties;
 
 public class PersonService {
 
